@@ -3,3 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --background: maroon;
+    --lightest: white;
+    --darkest: black;
+    --medium: orange;
+    --dark: rgb(70, 70, 70);
+    --light: tan;
+}
+
+html {
+
+}
+
+body {
+    background-color: var(--background);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
