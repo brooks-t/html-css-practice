@@ -49,12 +49,22 @@ section {
     height: 30vh;
     width: 30vw;
     border: 1px solid var(--medium);
-    margin: 1%;
     display: flex;
     padding: 1%;
+    overflow: hidden;
+    box-shadow: inset 0px 0px 8px var(--medium), 0 0 15px var(--medium);
+}
+
+section:hover {
+    background-color: white;
 }
 
 section img {
+    height: 25vh;
+    margin-right: 10px;
+}
+
+section article {
     height: 25vh;
 }
 
