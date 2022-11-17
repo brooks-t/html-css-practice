@@ -15,6 +15,7 @@
 
 html {
     height: 100%;
+    margin: 10px;
 }
 
 body {
@@ -26,15 +27,36 @@ body {
 header {
     height: 10vh;
     border: 1px solid var(--medium);
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 main {
-    height: 80vh;
+    min-height: 80vh;
     border: 1px solid var(--medium);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1%;
+}
+
+section {
+    height: 30vh;
+    width: 30vw;
+    border: 1px solid var(--medium);
+    margin: 1%;
+    display: flex;
 }
 
 footer {
     height: 10vh;
     border: 1px solid var(--medium);
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
